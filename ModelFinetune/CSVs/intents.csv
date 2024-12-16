@@ -1,0 +1,16 @@
+intent_name,intent_description
+add_patient,add new patient
+assign_medication,assign medication
+update_medication,update medication dosage
+remove_medication,remove medication
+get_patient_info,get patient information
+schedule_appointment,schedule appointment
+add_allergy,add allergy
+check_lab_results,check lab results
+order_blood_test,order blood test
+update_contact_info,update patient contact info
+order_xray,order x-ray
+consult_specialist,consult with specialist
+update_medical_history,update medical history
+schedule_surgery,schedule surgery
+discharge_patient,discharge patient
