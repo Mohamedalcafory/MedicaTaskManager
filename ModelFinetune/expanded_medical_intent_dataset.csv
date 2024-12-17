@@ -1,301 +1,301 @@
-Sentence,Intent
-schedule knee surgery for Emma Davis,schedule_surgery
-order x-ray for Maria Garcia,order_xray
-add allergy to gluten for John Smith,add_allergy
-update medication dosage for amoxicillin to every 6 hours for Alice Johnson,update_medication
-order x-ray for Oliver Harris,order_xray
-schedule knee surgery for Maria Garcia,schedule_surgery
-consult with a orthopedic surgeon for Michael Clark,consult_specialist
-assign medication insulin every 6 hours for Maria Garcia,assign_medication
-order blood test for Joe Doe,order_blood_test
-add allergy to latex for Linda White,add_allergy
-remove medication atenolol from Maria Garcia's treatment plan,remove_medication
-update medical history for Oliver Harris,update_medical_history
-add new patient Michael Clark 40 years old with asthma,add_patient
-add new patient Alice Johnson 35 years old with heart disease,add_patient
-discharge patient Joe Doe,discharge_patient
-schedule cataract surgery for Oliver Harris,schedule_surgery
-schedule cataract surgery for Maria Garcia,schedule_surgery
-update patient contact info for Sophia Lewis,update_contact_info
-update medical history for Michael Clark,update_medical_history
-add new patient Sophia Lewis 53 years old with arthritis,add_patient
-order x-ray for Alice Johnson,order_xray
-remove medication metformin from Michael Clark's treatment plan,remove_medication
-order blood test for Michael Clark,order_blood_test
-add allergy to peanuts for Joe Doe,add_allergy
-update medical history for Alice Johnson,update_medical_history
-remove medication aspirin from Sophia Lewis's treatment plan,remove_medication
-consult with a cardiologist for Sophia Lewis,consult_specialist
-discharge patient Linda White,discharge_patient
-schedule heart bypass for James Brown,schedule_surgery
-check lab results for Emma Davis,check_lab_results
-check lab results for Alice Johnson,check_lab_results
-add new patient Joe Doe 27 years old with chronic pain,add_patient
-update medication dosage for metformin to every 8 hours for John Smith,update_medication
-add new patient Joe Doe 77 years old with flu,add_patient
-add new patient Alice Johnson 30 years old with diabetes,add_patient
-update patient contact info for Maria Garcia,update_contact_info
-add new patient Joe Doe 78 years old with heart disease,add_patient
-add allergy to latex for Sophia Lewis,add_allergy
-schedule cataract surgery for John Smith,schedule_surgery
-assign medication ibuprofen every evening for Alice Johnson,assign_medication
-check lab results for Linda White,check_lab_results
-schedule spinal surgery for Emma Davis,schedule_surgery
-schedule heart bypass for John Smith,schedule_surgery
-schedule appointment for John Smith next week,schedule_appointment
-add new patient Michael Clark 76 years old with heart disease,add_patient
-update medication dosage for paracetamol to every 4 hours for Oliver Harris,update_medication
-get patient information for Michael Clark,get_patient_info
-update medical history for John Smith,update_medical_history
-schedule appendectomy for James Brown,schedule_surgery
-update patient contact info for James Brown,update_contact_info
-check lab results for Oliver Harris,check_lab_results
-discharge patient Joe Doe,discharge_patient
-add allergy to dust for Michael Clark,add_allergy
-discharge patient Oliver Harris,discharge_patient
-add new patient Alice Johnson 51 years old with depression,add_patient
-check lab results for Maria Garcia,check_lab_results
-assign medication paracetamol every 6 hours for Sophia Lewis,assign_medication
-update medical history for Oliver Harris,update_medical_history
-schedule spinal surgery for Alice Johnson,schedule_surgery
-consult with a cardiologist for John Smith,consult_specialist
-update patient contact info for Alice Johnson,update_contact_info
-update medication dosage for metformin to every evening for Oliver Harris,update_medication
-get patient information for Maria Garcia,get_patient_info
-remove medication amoxicillin from Michael Clark's treatment plan,remove_medication
-schedule cataract surgery for Alice Johnson,schedule_surgery
-add allergy to dust for James Brown,add_allergy
-add allergy to pollen for Emma Davis,add_allergy
-discharge patient Maria Garcia,discharge_patient
-order blood test for John Smith,order_blood_test
-update medication dosage for amoxicillin to every 8 hours for Linda White,update_medication
-assign medication metformin after meals for James Brown,assign_medication
-assign medication metformin as needed for James Brown,assign_medication
-remove medication gabapentin from Michael Clark's treatment plan,remove_medication
-add new patient Sophia Lewis 24 years old with heart disease,add_patient
-order x-ray for John Smith,order_xray
-update patient contact info for Joe Doe,update_contact_info
-update medical history for Maria Garcia,update_medical_history
-consult with a gastroenterologist for Oliver Harris,consult_specialist
-schedule spinal surgery for Maria Garcia,schedule_surgery
-order x-ray for Emma Davis,order_xray
-check lab results for Michael Clark,check_lab_results
-update medication dosage for lorazepam to after meals for James Brown,update_medication
-update patient contact info for Joe Doe,update_contact_info
-discharge patient Maria Garcia,discharge_patient
-assign medication amoxicillin every evening for Sophia Lewis,assign_medication
-assign medication aspirin as needed for Joe Doe,assign_medication
-consult with a gastroenterologist for Michael Clark,consult_specialist
-consult with a cardiologist for Linda White,consult_specialist
-add new patient Sophia Lewis 24 years old with chronic pain,add_patient
-update medication dosage for statins to twice a day for Maria Garcia,update_medication
-order blood test for Linda White,order_blood_test
-update medication dosage for insulin to every 4 hours for Joe Doe,update_medication
-add allergy to tree nuts for Linda White,add_allergy
-check lab results for Michael Clark,check_lab_results
-update medication dosage for atenolol to twice a day for Emma Davis,update_medication
-update patient contact info for Emma Davis,update_contact_info
-update patient contact info for Emma Davis,update_contact_info
-assign medication paracetamol every 4 hours for Sophia Lewis,assign_medication
-consult with a cardiologist for John Smith,consult_specialist
-update medical history for Linda White,update_medical_history
-update medication dosage for amoxicillin to every 6 hours for Sophia Lewis,update_medication
-add new patient Michael Clark 55 years old with anemia,add_patient
-consult with a gastroenterologist for John Smith,consult_specialist
-order x-ray for Linda White,order_xray
-update medical history for Emma Davis,update_medical_history
-update medication dosage for statins to as needed for John Smith,update_medication
-check lab results for Joe Doe,check_lab_results
-order blood test for Joe Doe,order_blood_test
-add allergy to peanuts for Alice Johnson,add_allergy
-order x-ray for Oliver Harris,order_xray
-add new patient Oliver Harris 22 years old with depression,add_patient
-schedule heart bypass for Emma Davis,schedule_surgery
-consult with a orthopedic surgeon for Oliver Harris,consult_specialist
-remove medication metformin from Alice Johnson's treatment plan,remove_medication
-order blood test for Sophia Lewis,order_blood_test
-update medication dosage for metformin to every morning for John Smith,update_medication
-add new patient Alice Johnson 52 years old with hypertension,add_patient
-update patient contact info for James Brown,update_contact_info
-schedule appointment for Maria Garcia next week,schedule_appointment
-discharge patient Alice Johnson,discharge_patient
-check lab results for Emma Davis,check_lab_results
-order x-ray for Emma Davis,order_xray
-discharge patient Maria Garcia,discharge_patient
-assign medication insulin as needed for James Brown,assign_medication
-remove medication metformin from Oliver Harris's treatment plan,remove_medication
-add new patient Michael Clark 63 years old with anemia,add_patient
-add allergy to tree nuts for John Smith,add_allergy
-add allergy to dust for John Smith,add_allergy
-consult with a dermatologist for Sophia Lewis,consult_specialist
-check lab results for James Brown,check_lab_results
-order blood test for Michael Clark,order_blood_test
-get patient information for Maria Garcia,get_patient_info
-order x-ray for John Smith,order_xray
-update medical history for John Smith,update_medical_history
-add allergy to pollen for Alice Johnson,add_allergy
-order blood test for James Brown,order_blood_test
-add allergy to gluten for Michael Clark,add_allergy
-schedule cataract surgery for James Brown,schedule_surgery
-update medication dosage for paracetamol to as needed for Emma Davis,update_medication
-order blood test for Linda White,order_blood_test
-add new patient Michael Clark 56 years old with diabetes,add_patient
-update medical history for John Smith,update_medical_history
-order blood test for Sophia Lewis,order_blood_test
-order blood test for James Brown,order_blood_test
-add new patient Oliver Harris 36 years old with asthma,add_patient
-schedule appendectomy for Sophia Lewis,schedule_surgery
-update medical history for Emma Davis,update_medical_history
-consult with a cardiologist for Michael Clark,consult_specialist
-order blood test for Alice Johnson,order_blood_test
-update medical history for Michael Clark,update_medical_history
-add new patient James Brown 68 years old with depression,add_patient
-order x-ray for Oliver Harris,order_xray
-order x-ray for John Smith,order_xray
-assign medication insulin every 8 hours for James Brown,assign_medication
-assign medication amoxicillin twice a day for Joe Doe,assign_medication
-update medical history for Joe Doe,update_medical_history
-consult with a cardiologist for Michael Clark,consult_specialist
-check lab results for Maria Garcia,check_lab_results
-add allergy to gluten for Sophia Lewis,add_allergy
-assign medication metformin after meals for Sophia Lewis,assign_medication
-update medication dosage for lorazepam to before meals for Sophia Lewis,update_medication
-assign medication aspirin every 6 hours for Sophia Lewis,assign_medication
-consult with a neurologist for Maria Garcia,consult_specialist
-order blood test for Emma Davis,order_blood_test
-schedule appointment for Oliver Harris next week,schedule_appointment
-update medical history for Maria Garcia,update_medical_history
-assign medication insulin twice a day for Joe Doe,assign_medication
-schedule appointment for Alice Johnson next week,schedule_appointment
-check lab results for Linda White,check_lab_results
-add allergy to soy for Oliver Harris,add_allergy
-update medication dosage for paracetamol to every evening for Oliver Harris,update_medication
-get patient information for Maria Garcia,get_patient_info
-get patient information for Joe Doe,get_patient_info
-remove medication atenolol from Joe Doe's treatment plan,remove_medication
-check lab results for Joe Doe,check_lab_results
-assign medication metformin every 8 hours for Michael Clark,assign_medication
-schedule spinal surgery for James Brown,schedule_surgery
-update medical history for John Smith,update_medical_history
-discharge patient Maria Garcia,discharge_patient
-add new patient Joe Doe 60 years old with flu,add_patient
-get patient information for Joe Doe,get_patient_info
-add allergy to pollen for Maria Garcia,add_allergy
-discharge patient Emma Davis,discharge_patient
-order x-ray for Linda White,order_xray
-schedule heart bypass for Oliver Harris,schedule_surgery
-update medical history for Alice Johnson,update_medical_history
-consult with a gastroenterologist for John Smith,consult_specialist
-add allergy to pollen for James Brown,add_allergy
-assign medication lorazepam every evening for Joe Doe,assign_medication
-consult with a cardiologist for Linda White,consult_specialist
-update patient contact info for Michael Clark,update_contact_info
-update patient contact info for Oliver Harris,update_contact_info
-update medication dosage for amoxicillin to every 6 hours for Linda White,update_medication
-schedule appointment for Michael Clark next week,schedule_appointment
-check lab results for Joe Doe,check_lab_results
-remove medication amoxicillin from Emma Davis's treatment plan,remove_medication
-discharge patient Alice Johnson,discharge_patient
-add allergy to pollen for John Smith,add_allergy
-order blood test for James Brown,order_blood_test
-update medical history for Linda White,update_medical_history
-schedule knee surgery for Alice Johnson,schedule_surgery
-update patient contact info for Oliver Harris,update_contact_info
-order blood test for Emma Davis,order_blood_test
-add new patient Linda White 74 years old with heart disease,add_patient
-add allergy to latex for John Smith,add_allergy
-update medication dosage for insulin to every 4 hours for Linda White,update_medication
-update medical history for Joe Doe,update_medical_history
-add allergy to penicillin for Alice Johnson,add_allergy
-consult with a cardiologist for Sophia Lewis,consult_specialist
-add new patient Joe Doe 31 years old with anemia,add_patient
-check lab results for Linda White,check_lab_results
-update medication dosage for atenolol to twice a day for Maria Garcia,update_medication
-schedule appendectomy for Michael Clark,schedule_surgery
-discharge patient Joe Doe,discharge_patient
-get patient information for Joe Doe,get_patient_info
-get patient information for Michael Clark,get_patient_info
-update patient contact info for Emma Davis,update_contact_info
-assign medication gabapentin every morning for Oliver Harris,assign_medication
-update medication dosage for lorazepam to before meals for Alice Johnson,update_medication
-order x-ray for John Smith,order_xray
-update medication dosage for aspirin to every evening for James Brown,update_medication
-add new patient John Smith 75 years old with depression,add_patient
-update medication dosage for metformin to every evening for Alice Johnson,update_medication
-get patient information for James Brown,get_patient_info
-discharge patient Oliver Harris,discharge_patient
-assign medication statins every 4 hours for John Smith,assign_medication
-consult with a orthopedic surgeon for Michael Clark,consult_specialist
-remove medication amoxicillin from Emma Davis's treatment plan,remove_medication
-update medical history for Sophia Lewis,update_medical_history
-order x-ray for John Smith,order_xray
-order blood test for Joe Doe,order_blood_test
-update medication dosage for amoxicillin to every evening for Sophia Lewis,update_medication
-consult with a dermatologist for Maria Garcia,consult_specialist
-consult with a neurologist for Emma Davis,consult_specialist
-update medical history for Michael Clark,update_medical_history
-order blood test for Joe Doe,order_blood_test
-update patient contact info for Emma Davis,update_contact_info
-assign medication statins after meals for Emma Davis,assign_medication
-update patient contact info for Emma Davis,update_contact_info
-check lab results for Michael Clark,check_lab_results
-discharge patient Oliver Harris,discharge_patient
-consult with a orthopedic surgeon for Oliver Harris,consult_specialist
-schedule appointment for Sophia Lewis next week,schedule_appointment
-schedule appointment for Sophia Lewis next week,schedule_appointment
-update medication dosage for paracetamol to after meals for Maria Garcia,update_medication
-update medical history for Linda White,update_medical_history
-discharge patient John Smith,discharge_patient
-discharge patient Michael Clark,discharge_patient
-discharge patient Joe Doe,discharge_patient
-discharge patient Maria Garcia,discharge_patient
-consult with a neurologist for Michael Clark,consult_specialist
-assign medication statins every morning for Linda White,assign_medication
-order blood test for Maria Garcia,order_blood_test
-assign medication amoxicillin twice a day for Linda White,assign_medication
-assign medication ibuprofen every evening for Linda White,assign_medication
-update medication dosage for amoxicillin to once a day for Linda White,update_medication
-assign medication lorazepam once a day for Sophia Lewis,assign_medication
-remove medication statins from Linda White's treatment plan,remove_medication
-order x-ray for John Smith,order_xray
-schedule appendectomy for Linda White,schedule_surgery
-check lab results for Joe Doe,check_lab_results
-order x-ray for Linda White,order_xray
-order blood test for Michael Clark,order_blood_test
-schedule appendectomy for John Smith,schedule_surgery
-add allergy to pollen for Joe Doe,add_allergy
-update medical history for James Brown,update_medical_history
-assign medication ibuprofen after meals for Alice Johnson,assign_medication
-add new patient Oliver Harris 34 years old with anemia,add_patient
-assign medication insulin every 8 hours for Linda White,assign_medication
-assign medication insulin every 6 hours for Joe Doe,assign_medication
-schedule heart bypass for Maria Garcia,schedule_surgery
-order blood test for Michael Clark,order_blood_test
-update medical history for Joe Doe,update_medical_history
-remove medication aspirin from James Brown's treatment plan,remove_medication
-assign medication atenolol as needed for James Brown,assign_medication
-assign medication metformin every evening for Sophia Lewis,assign_medication
-remove medication insulin from Emma Davis's treatment plan,remove_medication
-add allergy to soy for Michael Clark,add_allergy
-order x-ray for Michael Clark,order_xray
-schedule appendectomy for Joe Doe,schedule_surgery
-add allergy to penicillin for James Brown,add_allergy
-add allergy to gluten for Emma Davis,add_allergy
-check lab results for Linda White,check_lab_results
-consult with a neurologist for Joe Doe,consult_specialist
-check lab results for Joe Doe,check_lab_results
-discharge patient Alice Johnson,discharge_patient
-order blood test for James Brown,order_blood_test
-update medical history for Oliver Harris,update_medical_history
-check lab results for Alice Johnson,check_lab_results
-update patient contact info for James Brown,update_contact_info
-update medication dosage for amoxicillin to as needed for Linda White,update_medication
-discharge patient Oliver Harris,discharge_patient
-consult with a gastroenterologist for Sophia Lewis,consult_specialist
-update medical history for Michael Clark,update_medical_history
-schedule appointment for Maria Garcia next week,schedule_appointment
-schedule appointment for Maria Garcia next week,schedule_appointment
-remove medication amoxicillin from Alice Johnson's treatment plan,remove_medication
-schedule appendectomy for Emma Davis,schedule_surgery
-discharge patient Maria Garcia,discharge_patient
-schedule spinal surgery for Oliver Harris,schedule_surgery
+Sentence,Intent,NER
+order blood test for John Smith,order_blood_test,order/O blood/O test/O for/O John/B-PATIENT Smith/I-PATIENT
+schedule cataract surgery for John Smith,schedule_surgery,schedule/O cataract/B-SURGERY surgery/I-SURGERY for/O John/B-PATIENT Smith/I-PATIENT
+update medication dosage for aspirin to twice a day for Linda White,update_medication,update/O medication/O dosage/O for/O aspirin/B-MEDICATION /I-MEDICATION to/O twice/B-DOSAGE a day/I-DOSAGE for/O Linda/B-PATIENT White/I-PATIENT
+order x-ray for Sophia Lewis,order_xray,order/O x-ray/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+add new patient Maria Garcia 48 years old with anemia,add_patient,add/O Maria/B-PATIENT Garcia/I-PATIENT/B-PATIENT 48/B-AGE years/O old/O with/O anemia/B-DISEASE /I-DISEASE/B-DISEASE
+order x-ray for Oliver Harris,order_xray,order/O x-ray/O for/O Oliver/B-PATIENT Harris/I-PATIENT
+discharge patient Alice Johnson,discharge_patient,discharge/O patient/O Alice/B-PATIENT Johnson/I-PATIENT
+add new patient Oliver Harris 74 years old with hypertension,add_patient,add/O Oliver/B-PATIENT Harris/I-PATIENT/B-PATIENT 74/B-AGE years/O old/O with/O hypertension/B-DISEASE /I-DISEASE/B-DISEASE
+order x-ray for John Smith,order_xray,order/O x-ray/O for/O John/B-PATIENT Smith/I-PATIENT
+order x-ray for Emma Davis,order_xray,order/O x-ray/O for/O Emma/B-PATIENT Davis/I-PATIENT
+schedule heart bypass for Sophia Lewis,schedule_surgery,schedule/O heart/B-SURGERY bypass/I-SURGERY for/O Sophia/B-PATIENT Lewis/I-PATIENT
+add new patient John Smith 43 years old with depression,add_patient,add/O John/B-PATIENT Smith/I-PATIENT/B-PATIENT 43/B-AGE years/O old/O with/O depression/B-DISEASE /I-DISEASE/B-DISEASE
+remove medication metformin from Sophia Lewis's treatment plan,remove_medication,remove/O medication/O metformin/B-MEDICATION /I-MEDICATION from/O Sophia/B-PATIENT Lewis/I-PATIENT 's/O treatment/O plan/O
+add new patient Alice Johnson 37 years old with flu,add_patient,add/O Alice/B-PATIENT Johnson/I-PATIENT/B-PATIENT 37/B-AGE years/O old/O with/O flu/B-DISEASE /I-DISEASE/B-DISEASE
+update medical history for John Smith,update_medical_history,update/O medical/O history/O for/O John/B-PATIENT Smith/I-PATIENT
+schedule knee surgery for Alice Johnson,schedule_surgery,schedule/O knee/B-SURGERY surgery/I-SURGERY for/O Alice/B-PATIENT Johnson/I-PATIENT
+add new patient Emma Davis 36 years old with chronic pain,add_patient,add/O Emma/B-PATIENT Davis/I-PATIENT/B-PATIENT 36/B-AGE years/O old/O with/O chronic/B-DISEASE pain/I-DISEASE/B-DISEASE
+order x-ray for Alice Johnson,order_xray,order/O x-ray/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+consult with a dermatologist for Joe Doe,consult_specialist,consult/O with/O a/O dermatologist/B-SPECIALTY /I-SPECIALTY for/O Joe/B-PATIENT Doe/I-PATIENT
+update patient contact info for Joe Doe,update_contact_info,update/O patient/O contact/O info/O for/O Joe/B-PATIENT Doe/I-PATIENT
+get patient information for Maria Garcia,get_patient_info,get/O patient/O information/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+add new patient Maria Garcia 68 years old with depression,add_patient,add/O Maria/B-PATIENT Garcia/I-PATIENT/B-PATIENT 68/B-AGE years/O old/O with/O depression/B-DISEASE /I-DISEASE/B-DISEASE
+update medical history for Sophia Lewis,update_medical_history,update/O medical/O history/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+order blood test for Sophia Lewis,order_blood_test,order/O blood/O test/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+discharge patient John Smith,discharge_patient,discharge/O patient/O John/B-PATIENT Smith/I-PATIENT
+add allergy to tree nuts for Alice Johnson,add_allergy,add/O allergy/O to/O tree/B-ALLERGY nuts/I-ALLERGY for/O Alice/B-PATIENT Johnson/I-PATIENT
+consult with a cardiologist for Joe Doe,consult_specialist,consult/O with/O a/O cardiologist/B-SPECIALTY /I-SPECIALTY for/O Joe/B-PATIENT Doe/I-PATIENT
+add new patient Maria Garcia 67 years old with covid-19,add_patient,add/O Maria/B-PATIENT Garcia/I-PATIENT/B-PATIENT 67/B-AGE years/O old/O with/O covid-19/B-DISEASE /I-DISEASE/B-DISEASE
+consult with a cardiologist for Sophia Lewis,consult_specialist,consult/O with/O a/O cardiologist/B-SPECIALTY /I-SPECIALTY for/O Sophia/B-PATIENT Lewis/I-PATIENT
+add allergy to shellfish for Joe Doe,add_allergy,add/O allergy/O to/O shellfish/B-ALLERGY /I-ALLERGY for/O Joe/B-PATIENT Doe/I-PATIENT
+update medication dosage for aspirin to every 6 hours for Michael Clark,update_medication,update/O medication/O dosage/O for/O aspirin/B-MEDICATION /I-MEDICATION to/O every/B-DOSAGE 6 hours/I-DOSAGE for/O Michael/B-PATIENT Clark/I-PATIENT
+remove medication ibuprofen from Emma Davis's treatment plan,remove_medication,remove/O medication/O ibuprofen/B-MEDICATION /I-MEDICATION from/O Emma/B-PATIENT Davis/I-PATIENT 's/O treatment/O plan/O
+assign medication paracetamol after meals for Oliver Harris,assign_medication,assign/O medication/O paracetamol/B-MEDICATION /I-MEDICATIONafter/B-DOSAGE meals/I-DOSAGE for/O Oliver/B-PATIENT Harris/I-PATIENT
+assign medication aspirin twice a day for Oliver Harris,assign_medication,assign/O medication/O aspirin/B-MEDICATION /I-MEDICATIONtwice/B-DOSAGE a day/I-DOSAGE for/O Oliver/B-PATIENT Harris/I-PATIENT
+remove medication aspirin from Linda White's treatment plan,remove_medication,remove/O medication/O aspirin/B-MEDICATION /I-MEDICATION from/O Linda/B-PATIENT White/I-PATIENT 's/O treatment/O plan/O
+get patient information for Sophia Lewis,get_patient_info,get/O patient/O information/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+consult with a cardiologist for James Brown,consult_specialist,consult/O with/O a/O cardiologist/B-SPECIALTY /I-SPECIALTY for/O James/B-PATIENT Brown/I-PATIENT
+consult with a gastroenterologist for Michael Clark,consult_specialist,consult/O with/O a/O gastroenterologist/B-SPECIALTY /I-SPECIALTY for/O Michael/B-PATIENT Clark/I-PATIENT
+update medication dosage for paracetamol to twice a day for Sophia Lewis,update_medication,update/O medication/O dosage/O for/O paracetamol/B-MEDICATION /I-MEDICATION to/O twice/B-DOSAGE a day/I-DOSAGE for/O Sophia/B-PATIENT Lewis/I-PATIENT
+add new patient James Brown 49 years old with asthma,add_patient,add/O James/B-PATIENT Brown/I-PATIENT/B-PATIENT 49/B-AGE years/O old/O with/O asthma/B-DISEASE /I-DISEASE/B-DISEASE
+update patient contact info for John Smith,update_contact_info,update/O patient/O contact/O info/O for/O John/B-PATIENT Smith/I-PATIENT
+get patient information for Alice Johnson,get_patient_info,get/O patient/O information/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+consult with a cardiologist for Joe Doe,consult_specialist,consult/O with/O a/O cardiologist/B-SPECIALTY /I-SPECIALTY for/O Joe/B-PATIENT Doe/I-PATIENT
+schedule heart bypass for Michael Clark,schedule_surgery,schedule/O heart/B-SURGERY bypass/I-SURGERY for/O Michael/B-PATIENT Clark/I-PATIENT
+remove medication aspirin from Linda White's treatment plan,remove_medication,remove/O medication/O aspirin/B-MEDICATION /I-MEDICATION from/O Linda/B-PATIENT White/I-PATIENT 's/O treatment/O plan/O
+update medication dosage for statins to twice a day for Joe Doe,update_medication,update/O medication/O dosage/O for/O statins/B-MEDICATION /I-MEDICATION to/O twice/B-DOSAGE a day/I-DOSAGE for/O Joe/B-PATIENT Doe/I-PATIENT
+add allergy to gluten for Sophia Lewis,add_allergy,add/O allergy/O to/O gluten/B-ALLERGY /I-ALLERGY for/O Sophia/B-PATIENT Lewis/I-PATIENT
+schedule knee surgery for Sophia Lewis,schedule_surgery,schedule/O knee/B-SURGERY surgery/I-SURGERY for/O Sophia/B-PATIENT Lewis/I-PATIENT
+remove medication ibuprofen from Sophia Lewis's treatment plan,remove_medication,remove/O medication/O ibuprofen/B-MEDICATION /I-MEDICATION from/O Sophia/B-PATIENT Lewis/I-PATIENT 's/O treatment/O plan/O
+add new patient Michael Clark 28 years old with asthma,add_patient,add/O Michael/B-PATIENT Clark/I-PATIENT/B-PATIENT 28/B-AGE years/O old/O with/O asthma/B-DISEASE /I-DISEASE/B-DISEASE
+order blood test for Linda White,order_blood_test,order/O blood/O test/O for/O Linda/B-PATIENT White/I-PATIENT
+schedule cataract surgery for Maria Garcia,schedule_surgery,schedule/O cataract/B-SURGERY surgery/I-SURGERY for/O Maria/B-PATIENT Garcia/I-PATIENT
+assign medication paracetamol every 6 hours for Alice Johnson,assign_medication,assign/O medication/O paracetamol/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE 6 hours/I-DOSAGE for/O Alice/B-PATIENT Johnson/I-PATIENT
+get patient information for Maria Garcia,get_patient_info,get/O patient/O information/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+order blood test for John Smith,order_blood_test,order/O blood/O test/O for/O John/B-PATIENT Smith/I-PATIENT
+add allergy to gluten for Sophia Lewis,add_allergy,add/O allergy/O to/O gluten/B-ALLERGY /I-ALLERGY for/O Sophia/B-PATIENT Lewis/I-PATIENT
+check lab results for John Smith,check_lab_results,check/O lab/O results/O for/O John/B-PATIENT Smith/I-PATIENT
+discharge patient Michael Clark,discharge_patient,discharge/O patient/O Michael/B-PATIENT Clark/I-PATIENT
+assign medication atenolol before meals for James Brown,assign_medication,assign/O medication/O atenolol/B-MEDICATION /I-MEDICATIONbefore/B-DOSAGE meals/I-DOSAGE for/O James/B-PATIENT Brown/I-PATIENT
+assign medication amoxicillin as needed for Sophia Lewis,assign_medication,assign/O medication/O amoxicillin/B-MEDICATION /I-MEDICATIONas/B-DOSAGE needed/I-DOSAGE for/O Sophia/B-PATIENT Lewis/I-PATIENT
+assign medication statins after meals for Maria Garcia,assign_medication,assign/O medication/O statins/B-MEDICATION /I-MEDICATIONafter/B-DOSAGE meals/I-DOSAGE for/O Maria/B-PATIENT Garcia/I-PATIENT
+schedule cataract surgery for Oliver Harris,schedule_surgery,schedule/O cataract/B-SURGERY surgery/I-SURGERY for/O Oliver/B-PATIENT Harris/I-PATIENT
+get patient information for James Brown,get_patient_info,get/O patient/O information/O for/O James/B-PATIENT Brown/I-PATIENT
+add new patient Michael Clark 55 years old with covid-19,add_patient,add/O Michael/B-PATIENT Clark/I-PATIENT/B-PATIENT 55/B-AGE years/O old/O with/O covid-19/B-DISEASE /I-DISEASE/B-DISEASE
+check lab results for John Smith,check_lab_results,check/O lab/O results/O for/O John/B-PATIENT Smith/I-PATIENT
+get patient information for Maria Garcia,get_patient_info,get/O patient/O information/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+remove medication amoxicillin from Maria Garcia's treatment plan,remove_medication,remove/O medication/O amoxicillin/B-MEDICATION /I-MEDICATION from/O Maria/B-PATIENT Garcia/I-PATIENT 's/O treatment/O plan/O
+schedule appointment for Oliver Harris next week,schedule_appointment,schedule/O appointment/O for/O Oliver/B-PATIENT Harris/I-PATIENT next/O week/O
+get patient information for John Smith,get_patient_info,get/O patient/O information/O for/O John/B-PATIENT Smith/I-PATIENT
+remove medication gabapentin from Oliver Harris's treatment plan,remove_medication,remove/O medication/O gabapentin/B-MEDICATION /I-MEDICATION from/O Oliver/B-PATIENT Harris/I-PATIENT 's/O treatment/O plan/O
+schedule knee surgery for Joe Doe,schedule_surgery,schedule/O knee/B-SURGERY surgery/I-SURGERY for/O Joe/B-PATIENT Doe/I-PATIENT
+schedule appendectomy for Alice Johnson,schedule_surgery,schedule/O appendectomy/B-SURGERY /I-SURGERY for/O Alice/B-PATIENT Johnson/I-PATIENT
+remove medication aspirin from Joe Doe's treatment plan,remove_medication,remove/O medication/O aspirin/B-MEDICATION /I-MEDICATION from/O Joe/B-PATIENT Doe/I-PATIENT 's/O treatment/O plan/O
+check lab results for Oliver Harris,check_lab_results,check/O lab/O results/O for/O Oliver/B-PATIENT Harris/I-PATIENT
+schedule spinal surgery for Maria Garcia,schedule_surgery,schedule/O spinal/B-SURGERY surgery/I-SURGERY for/O Maria/B-PATIENT Garcia/I-PATIENT
+schedule appointment for Sophia Lewis next week,schedule_appointment,schedule/O appointment/O for/O Sophia/B-PATIENT Lewis/I-PATIENT next/O week/O
+update patient contact info for Linda White,update_contact_info,update/O patient/O contact/O info/O for/O Linda/B-PATIENT White/I-PATIENT
+assign medication ibuprofen every evening for Oliver Harris,assign_medication,assign/O medication/O ibuprofen/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE evening/I-DOSAGE for/O Oliver/B-PATIENT Harris/I-PATIENT
+check lab results for Alice Johnson,check_lab_results,check/O lab/O results/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+check lab results for Alice Johnson,check_lab_results,check/O lab/O results/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+assign medication paracetamol every evening for Linda White,assign_medication,assign/O medication/O paracetamol/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE evening/I-DOSAGE for/O Linda/B-PATIENT White/I-PATIENT
+update medical history for Joe Doe,update_medical_history,update/O medical/O history/O for/O Joe/B-PATIENT Doe/I-PATIENT
+schedule appointment for Emma Davis next week,schedule_appointment,schedule/O appointment/O for/O Emma/B-PATIENT Davis/I-PATIENT next/O week/O
+schedule heart bypass for Emma Davis,schedule_surgery,schedule/O heart/B-SURGERY bypass/I-SURGERY for/O Emma/B-PATIENT Davis/I-PATIENT
+get patient information for Emma Davis,get_patient_info,get/O patient/O information/O for/O Emma/B-PATIENT Davis/I-PATIENT
+remove medication atenolol from James Brown's treatment plan,remove_medication,remove/O medication/O atenolol/B-MEDICATION /I-MEDICATION from/O James/B-PATIENT Brown/I-PATIENT 's/O treatment/O plan/O
+schedule appointment for Alice Johnson next week,schedule_appointment,schedule/O appointment/O for/O Alice/B-PATIENT Johnson/I-PATIENT next/O week/O
+add allergy to peanuts for Emma Davis,add_allergy,add/O allergy/O to/O peanuts/B-ALLERGY /I-ALLERGY for/O Emma/B-PATIENT Davis/I-PATIENT
+order x-ray for James Brown,order_xray,order/O x-ray/O for/O James/B-PATIENT Brown/I-PATIENT
+order x-ray for James Brown,order_xray,order/O x-ray/O for/O James/B-PATIENT Brown/I-PATIENT
+get patient information for Linda White,get_patient_info,get/O patient/O information/O for/O Linda/B-PATIENT White/I-PATIENT
+schedule heart bypass for Emma Davis,schedule_surgery,schedule/O heart/B-SURGERY bypass/I-SURGERY for/O Emma/B-PATIENT Davis/I-PATIENT
+check lab results for Emma Davis,check_lab_results,check/O lab/O results/O for/O Emma/B-PATIENT Davis/I-PATIENT
+order x-ray for Joe Doe,order_xray,order/O x-ray/O for/O Joe/B-PATIENT Doe/I-PATIENT
+check lab results for John Smith,check_lab_results,check/O lab/O results/O for/O John/B-PATIENT Smith/I-PATIENT
+order blood test for Maria Garcia,order_blood_test,order/O blood/O test/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+discharge patient Maria Garcia,discharge_patient,discharge/O patient/O Maria/B-PATIENT Garcia/I-PATIENT
+add new patient John Smith 34 years old with arthritis,add_patient,add/O John/B-PATIENT Smith/I-PATIENT/B-PATIENT 34/B-AGE years/O old/O with/O arthritis/B-DISEASE /I-DISEASE/B-DISEASE
+update medication dosage for aspirin to as needed for Maria Garcia,update_medication,update/O medication/O dosage/O for/O aspirin/B-MEDICATION /I-MEDICATION to/O as/B-DOSAGE needed/I-DOSAGE for/O Maria/B-PATIENT Garcia/I-PATIENT
+add new patient Sophia Lewis 46 years old with covid-19,add_patient,add/O Sophia/B-PATIENT Lewis/I-PATIENT/B-PATIENT 46/B-AGE years/O old/O with/O covid-19/B-DISEASE /I-DISEASE/B-DISEASE
+update patient contact info for Michael Clark,update_contact_info,update/O patient/O contact/O info/O for/O Michael/B-PATIENT Clark/I-PATIENT
+add allergy to peanuts for James Brown,add_allergy,add/O allergy/O to/O peanuts/B-ALLERGY /I-ALLERGY for/O James/B-PATIENT Brown/I-PATIENT
+assign medication lorazepam every 8 hours for James Brown,assign_medication,assign/O medication/O lorazepam/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE 8 hours/I-DOSAGE for/O James/B-PATIENT Brown/I-PATIENT
+get patient information for Michael Clark,get_patient_info,get/O patient/O information/O for/O Michael/B-PATIENT Clark/I-PATIENT
+add allergy to tree nuts for Emma Davis,add_allergy,add/O allergy/O to/O tree/B-ALLERGY nuts/I-ALLERGY for/O Emma/B-PATIENT Davis/I-PATIENT
+order x-ray for James Brown,order_xray,order/O x-ray/O for/O James/B-PATIENT Brown/I-PATIENT
+update medication dosage for insulin to as needed for Michael Clark,update_medication,update/O medication/O dosage/O for/O insulin/B-MEDICATION /I-MEDICATION to/O as/B-DOSAGE needed/I-DOSAGE for/O Michael/B-PATIENT Clark/I-PATIENT
+check lab results for Linda White,check_lab_results,check/O lab/O results/O for/O Linda/B-PATIENT White/I-PATIENT
+update medical history for Emma Davis,update_medical_history,update/O medical/O history/O for/O Emma/B-PATIENT Davis/I-PATIENT
+assign medication ibuprofen before meals for Oliver Harris,assign_medication,assign/O medication/O ibuprofen/B-MEDICATION /I-MEDICATIONbefore/B-DOSAGE meals/I-DOSAGE for/O Oliver/B-PATIENT Harris/I-PATIENT
+order x-ray for Emma Davis,order_xray,order/O x-ray/O for/O Emma/B-PATIENT Davis/I-PATIENT
+get patient information for Emma Davis,get_patient_info,get/O patient/O information/O for/O Emma/B-PATIENT Davis/I-PATIENT
+update patient contact info for James Brown,update_contact_info,update/O patient/O contact/O info/O for/O James/B-PATIENT Brown/I-PATIENT
+schedule appointment for Michael Clark next week,schedule_appointment,schedule/O appointment/O for/O Michael/B-PATIENT Clark/I-PATIENT next/O week/O
+get patient information for Alice Johnson,get_patient_info,get/O patient/O information/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+update medication dosage for amoxicillin to every 8 hours for Emma Davis,update_medication,update/O medication/O dosage/O for/O amoxicillin/B-MEDICATION /I-MEDICATION to/O every/B-DOSAGE 8 hours/I-DOSAGE for/O Emma/B-PATIENT Davis/I-PATIENT
+schedule appointment for Joe Doe next week,schedule_appointment,schedule/O appointment/O for/O Joe/B-PATIENT Doe/I-PATIENT next/O week/O
+assign medication amoxicillin every evening for Oliver Harris,assign_medication,assign/O medication/O amoxicillin/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE evening/I-DOSAGE for/O Oliver/B-PATIENT Harris/I-PATIENT
+schedule appointment for Michael Clark next week,schedule_appointment,schedule/O appointment/O for/O Michael/B-PATIENT Clark/I-PATIENT next/O week/O
+remove medication statins from Emma Davis's treatment plan,remove_medication,remove/O medication/O statins/B-MEDICATION /I-MEDICATION from/O Emma/B-PATIENT Davis/I-PATIENT 's/O treatment/O plan/O
+check lab results for Oliver Harris,check_lab_results,check/O lab/O results/O for/O Oliver/B-PATIENT Harris/I-PATIENT
+schedule appendectomy for Alice Johnson,schedule_surgery,schedule/O appendectomy/B-SURGERY /I-SURGERY for/O Alice/B-PATIENT Johnson/I-PATIENT
+order blood test for Michael Clark,order_blood_test,order/O blood/O test/O for/O Michael/B-PATIENT Clark/I-PATIENT
+check lab results for Emma Davis,check_lab_results,check/O lab/O results/O for/O Emma/B-PATIENT Davis/I-PATIENT
+order x-ray for Emma Davis,order_xray,order/O x-ray/O for/O Emma/B-PATIENT Davis/I-PATIENT
+add allergy to tree nuts for Linda White,add_allergy,add/O allergy/O to/O tree/B-ALLERGY nuts/I-ALLERGY for/O Linda/B-PATIENT White/I-PATIENT
+update medication dosage for metformin to as needed for Joe Doe,update_medication,update/O medication/O dosage/O for/O metformin/B-MEDICATION /I-MEDICATION to/O as/B-DOSAGE needed/I-DOSAGE for/O Joe/B-PATIENT Doe/I-PATIENT
+update medical history for Alice Johnson,update_medical_history,update/O medical/O history/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+discharge patient Emma Davis,discharge_patient,discharge/O patient/O Emma/B-PATIENT Davis/I-PATIENT
+order blood test for Maria Garcia,order_blood_test,order/O blood/O test/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+schedule appointment for Maria Garcia next week,schedule_appointment,schedule/O appointment/O for/O Maria/B-PATIENT Garcia/I-PATIENT next/O week/O
+check lab results for Emma Davis,check_lab_results,check/O lab/O results/O for/O Emma/B-PATIENT Davis/I-PATIENT
+update patient contact info for Linda White,update_contact_info,update/O patient/O contact/O info/O for/O Linda/B-PATIENT White/I-PATIENT
+update medical history for James Brown,update_medical_history,update/O medical/O history/O for/O James/B-PATIENT Brown/I-PATIENT
+discharge patient Emma Davis,discharge_patient,discharge/O patient/O Emma/B-PATIENT Davis/I-PATIENT
+add new patient James Brown 34 years old with arthritis,add_patient,add/O James/B-PATIENT Brown/I-PATIENT/B-PATIENT 34/B-AGE years/O old/O with/O arthritis/B-DISEASE /I-DISEASE/B-DISEASE
+remove medication metformin from James Brown's treatment plan,remove_medication,remove/O medication/O metformin/B-MEDICATION /I-MEDICATION from/O James/B-PATIENT Brown/I-PATIENT 's/O treatment/O plan/O
+order blood test for Maria Garcia,order_blood_test,order/O blood/O test/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+schedule appointment for Michael Clark next week,schedule_appointment,schedule/O appointment/O for/O Michael/B-PATIENT Clark/I-PATIENT next/O week/O
+update patient contact info for Joe Doe,update_contact_info,update/O patient/O contact/O info/O for/O Joe/B-PATIENT Doe/I-PATIENT
+schedule knee surgery for Maria Garcia,schedule_surgery,schedule/O knee/B-SURGERY surgery/I-SURGERY for/O Maria/B-PATIENT Garcia/I-PATIENT
+schedule appointment for James Brown next week,schedule_appointment,schedule/O appointment/O for/O James/B-PATIENT Brown/I-PATIENT next/O week/O
+remove medication lorazepam from Oliver Harris's treatment plan,remove_medication,remove/O medication/O lorazepam/B-MEDICATION /I-MEDICATION from/O Oliver/B-PATIENT Harris/I-PATIENT 's/O treatment/O plan/O
+update medication dosage for aspirin to every evening for Sophia Lewis,update_medication,update/O medication/O dosage/O for/O aspirin/B-MEDICATION /I-MEDICATION to/O every/B-DOSAGE evening/I-DOSAGE for/O Sophia/B-PATIENT Lewis/I-PATIENT
+update medical history for Michael Clark,update_medical_history,update/O medical/O history/O for/O Michael/B-PATIENT Clark/I-PATIENT
+schedule appendectomy for Oliver Harris,schedule_surgery,schedule/O appendectomy/B-SURGERY /I-SURGERY for/O Oliver/B-PATIENT Harris/I-PATIENT
+get patient information for John Smith,get_patient_info,get/O patient/O information/O for/O John/B-PATIENT Smith/I-PATIENT
+order blood test for Maria Garcia,order_blood_test,order/O blood/O test/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+consult with a gastroenterologist for Joe Doe,consult_specialist,consult/O with/O a/O gastroenterologist/B-SPECIALTY /I-SPECIALTY for/O Joe/B-PATIENT Doe/I-PATIENT
+schedule appendectomy for Oliver Harris,schedule_surgery,schedule/O appendectomy/B-SURGERY /I-SURGERY for/O Oliver/B-PATIENT Harris/I-PATIENT
+consult with a dermatologist for Linda White,consult_specialist,consult/O with/O a/O dermatologist/B-SPECIALTY /I-SPECIALTY for/O Linda/B-PATIENT White/I-PATIENT
+add allergy to tree nuts for Michael Clark,add_allergy,add/O allergy/O to/O tree/B-ALLERGY nuts/I-ALLERGY for/O Michael/B-PATIENT Clark/I-PATIENT
+add allergy to latex for Emma Davis,add_allergy,add/O allergy/O to/O latex/B-ALLERGY /I-ALLERGY for/O Emma/B-PATIENT Davis/I-PATIENT
+remove medication lorazepam from Michael Clark's treatment plan,remove_medication,remove/O medication/O lorazepam/B-MEDICATION /I-MEDICATION from/O Michael/B-PATIENT Clark/I-PATIENT 's/O treatment/O plan/O
+add new patient Oliver Harris 75 years old with depression,add_patient,add/O Oliver/B-PATIENT Harris/I-PATIENT/B-PATIENT 75/B-AGE years/O old/O with/O depression/B-DISEASE /I-DISEASE/B-DISEASE
+discharge patient Alice Johnson,discharge_patient,discharge/O patient/O Alice/B-PATIENT Johnson/I-PATIENT
+consult with a gastroenterologist for John Smith,consult_specialist,consult/O with/O a/O gastroenterologist/B-SPECIALTY /I-SPECIALTY for/O John/B-PATIENT Smith/I-PATIENT
+schedule appointment for Joe Doe next week,schedule_appointment,schedule/O appointment/O for/O Joe/B-PATIENT Doe/I-PATIENT next/O week/O
+discharge patient Michael Clark,discharge_patient,discharge/O patient/O Michael/B-PATIENT Clark/I-PATIENT
+update medical history for John Smith,update_medical_history,update/O medical/O history/O for/O John/B-PATIENT Smith/I-PATIENT
+remove medication atenolol from James Brown's treatment plan,remove_medication,remove/O medication/O atenolol/B-MEDICATION /I-MEDICATION from/O James/B-PATIENT Brown/I-PATIENT 's/O treatment/O plan/O
+remove medication statins from James Brown's treatment plan,remove_medication,remove/O medication/O statins/B-MEDICATION /I-MEDICATION from/O James/B-PATIENT Brown/I-PATIENT 's/O treatment/O plan/O
+schedule heart bypass for James Brown,schedule_surgery,schedule/O heart/B-SURGERY bypass/I-SURGERY for/O James/B-PATIENT Brown/I-PATIENT
+schedule appointment for Oliver Harris next week,schedule_appointment,schedule/O appointment/O for/O Oliver/B-PATIENT Harris/I-PATIENT next/O week/O
+check lab results for Emma Davis,check_lab_results,check/O lab/O results/O for/O Emma/B-PATIENT Davis/I-PATIENT
+discharge patient Michael Clark,discharge_patient,discharge/O patient/O Michael/B-PATIENT Clark/I-PATIENT
+add allergy to tree nuts for Michael Clark,add_allergy,add/O allergy/O to/O tree/B-ALLERGY nuts/I-ALLERGY for/O Michael/B-PATIENT Clark/I-PATIENT
+order blood test for Sophia Lewis,order_blood_test,order/O blood/O test/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+order x-ray for Michael Clark,order_xray,order/O x-ray/O for/O Michael/B-PATIENT Clark/I-PATIENT
+schedule appointment for John Smith next week,schedule_appointment,schedule/O appointment/O for/O John/B-PATIENT Smith/I-PATIENT next/O week/O
+remove medication lorazepam from Oliver Harris's treatment plan,remove_medication,remove/O medication/O lorazepam/B-MEDICATION /I-MEDICATION from/O Oliver/B-PATIENT Harris/I-PATIENT 's/O treatment/O plan/O
+add new patient James Brown 35 years old with chronic pain,add_patient,add/O James/B-PATIENT Brown/I-PATIENT/B-PATIENT 35/B-AGE years/O old/O with/O chronic/B-DISEASE pain/I-DISEASE/B-DISEASE
+assign medication lorazepam every morning for Michael Clark,assign_medication,assign/O medication/O lorazepam/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE morning/I-DOSAGE for/O Michael/B-PATIENT Clark/I-PATIENT
+assign medication amoxicillin every 8 hours for Linda White,assign_medication,assign/O medication/O amoxicillin/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE 8 hours/I-DOSAGE for/O Linda/B-PATIENT White/I-PATIENT
+assign medication ibuprofen every morning for Oliver Harris,assign_medication,assign/O medication/O ibuprofen/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE morning/I-DOSAGE for/O Oliver/B-PATIENT Harris/I-PATIENT
+discharge patient James Brown,discharge_patient,discharge/O patient/O James/B-PATIENT Brown/I-PATIENT
+discharge patient John Smith,discharge_patient,discharge/O patient/O John/B-PATIENT Smith/I-PATIENT
+order x-ray for Linda White,order_xray,order/O x-ray/O for/O Linda/B-PATIENT White/I-PATIENT
+get patient information for Linda White,get_patient_info,get/O patient/O information/O for/O Linda/B-PATIENT White/I-PATIENT
+get patient information for Emma Davis,get_patient_info,get/O patient/O information/O for/O Emma/B-PATIENT Davis/I-PATIENT
+order blood test for Emma Davis,order_blood_test,order/O blood/O test/O for/O Emma/B-PATIENT Davis/I-PATIENT
+update patient contact info for Sophia Lewis,update_contact_info,update/O patient/O contact/O info/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+discharge patient Michael Clark,discharge_patient,discharge/O patient/O Michael/B-PATIENT Clark/I-PATIENT
+consult with a dermatologist for Alice Johnson,consult_specialist,consult/O with/O a/O dermatologist/B-SPECIALTY /I-SPECIALTY for/O Alice/B-PATIENT Johnson/I-PATIENT
+discharge patient Linda White,discharge_patient,discharge/O patient/O Linda/B-PATIENT White/I-PATIENT
+update patient contact info for Linda White,update_contact_info,update/O patient/O contact/O info/O for/O Linda/B-PATIENT White/I-PATIENT
+discharge patient Emma Davis,discharge_patient,discharge/O patient/O Emma/B-PATIENT Davis/I-PATIENT
+update patient contact info for John Smith,update_contact_info,update/O patient/O contact/O info/O for/O John/B-PATIENT Smith/I-PATIENT
+add allergy to lactose for John Smith,add_allergy,add/O allergy/O to/O lactose/B-ALLERGY /I-ALLERGY for/O John/B-PATIENT Smith/I-PATIENT
+update medical history for Maria Garcia,update_medical_history,update/O medical/O history/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+order x-ray for Alice Johnson,order_xray,order/O x-ray/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+add new patient Sophia Lewis 56 years old with depression,add_patient,add/O Sophia/B-PATIENT Lewis/I-PATIENT/B-PATIENT 56/B-AGE years/O old/O with/O depression/B-DISEASE /I-DISEASE/B-DISEASE
+consult with a cardiologist for Emma Davis,consult_specialist,consult/O with/O a/O cardiologist/B-SPECIALTY /I-SPECIALTY for/O Emma/B-PATIENT Davis/I-PATIENT
+order blood test for Sophia Lewis,order_blood_test,order/O blood/O test/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+discharge patient Alice Johnson,discharge_patient,discharge/O patient/O Alice/B-PATIENT Johnson/I-PATIENT
+update patient contact info for John Smith,update_contact_info,update/O patient/O contact/O info/O for/O John/B-PATIENT Smith/I-PATIENT
+get patient information for Maria Garcia,get_patient_info,get/O patient/O information/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+check lab results for John Smith,check_lab_results,check/O lab/O results/O for/O John/B-PATIENT Smith/I-PATIENT
+add new patient Emma Davis 43 years old with hypertension,add_patient,add/O Emma/B-PATIENT Davis/I-PATIENT/B-PATIENT 43/B-AGE years/O old/O with/O hypertension/B-DISEASE /I-DISEASE/B-DISEASE
+update patient contact info for Sophia Lewis,update_contact_info,update/O patient/O contact/O info/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+add allergy to lactose for Emma Davis,add_allergy,add/O allergy/O to/O lactose/B-ALLERGY /I-ALLERGY for/O Emma/B-PATIENT Davis/I-PATIENT
+schedule appointment for John Smith next week,schedule_appointment,schedule/O appointment/O for/O John/B-PATIENT Smith/I-PATIENT next/O week/O
+add new patient Sophia Lewis 31 years old with arthritis,add_patient,add/O Sophia/B-PATIENT Lewis/I-PATIENT/B-PATIENT 31/B-AGE years/O old/O with/O arthritis/B-DISEASE /I-DISEASE/B-DISEASE
+schedule appointment for Maria Garcia next week,schedule_appointment,schedule/O appointment/O for/O Maria/B-PATIENT Garcia/I-PATIENT next/O week/O
+update medication dosage for paracetamol to every 6 hours for Michael Clark,update_medication,update/O medication/O dosage/O for/O paracetamol/B-MEDICATION /I-MEDICATION to/O every/B-DOSAGE 6 hours/I-DOSAGE for/O Michael/B-PATIENT Clark/I-PATIENT
+assign medication gabapentin every morning for Linda White,assign_medication,assign/O medication/O gabapentin/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE morning/I-DOSAGE for/O Linda/B-PATIENT White/I-PATIENT
+order x-ray for Sophia Lewis,order_xray,order/O x-ray/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+schedule appointment for Maria Garcia next week,schedule_appointment,schedule/O appointment/O for/O Maria/B-PATIENT Garcia/I-PATIENT next/O week/O
+add new patient James Brown 57 years old with anemia,add_patient,add/O James/B-PATIENT Brown/I-PATIENT/B-PATIENT 57/B-AGE years/O old/O with/O anemia/B-DISEASE /I-DISEASE/B-DISEASE
+schedule appointment for Sophia Lewis next week,schedule_appointment,schedule/O appointment/O for/O Sophia/B-PATIENT Lewis/I-PATIENT next/O week/O
+order blood test for James Brown,order_blood_test,order/O blood/O test/O for/O James/B-PATIENT Brown/I-PATIENT
+consult with a orthopedic surgeon for Michael Clark,consult_specialist,consult/O with/O a/O orthopedic/B-SPECIALTY surgeon/I-SPECIALTY for/O Michael/B-PATIENT Clark/I-PATIENT
+get patient information for Michael Clark,get_patient_info,get/O patient/O information/O for/O Michael/B-PATIENT Clark/I-PATIENT
+consult with a gastroenterologist for Joe Doe,consult_specialist,consult/O with/O a/O gastroenterologist/B-SPECIALTY /I-SPECIALTY for/O Joe/B-PATIENT Doe/I-PATIENT
+get patient information for Maria Garcia,get_patient_info,get/O patient/O information/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+add allergy to shellfish for Oliver Harris,add_allergy,add/O allergy/O to/O shellfish/B-ALLERGY /I-ALLERGY for/O Oliver/B-PATIENT Harris/I-PATIENT
+discharge patient Sophia Lewis,discharge_patient,discharge/O patient/O Sophia/B-PATIENT Lewis/I-PATIENT
+assign medication metformin every 4 hours for Alice Johnson,assign_medication,assign/O medication/O metformin/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE 4 hours/I-DOSAGE for/O Alice/B-PATIENT Johnson/I-PATIENT
+discharge patient John Smith,discharge_patient,discharge/O patient/O John/B-PATIENT Smith/I-PATIENT
+update medical history for Emma Davis,update_medical_history,update/O medical/O history/O for/O Emma/B-PATIENT Davis/I-PATIENT
+consult with a cardiologist for Sophia Lewis,consult_specialist,consult/O with/O a/O cardiologist/B-SPECIALTY /I-SPECIALTY for/O Sophia/B-PATIENT Lewis/I-PATIENT
+schedule appointment for Maria Garcia next week,schedule_appointment,schedule/O appointment/O for/O Maria/B-PATIENT Garcia/I-PATIENT next/O week/O
+check lab results for Emma Davis,check_lab_results,check/O lab/O results/O for/O Emma/B-PATIENT Davis/I-PATIENT
+update medication dosage for insulin to after meals for Linda White,update_medication,update/O medication/O dosage/O for/O insulin/B-MEDICATION /I-MEDICATION to/O after/B-DOSAGE meals/I-DOSAGE for/O Linda/B-PATIENT White/I-PATIENT
+order blood test for Emma Davis,order_blood_test,order/O blood/O test/O for/O Emma/B-PATIENT Davis/I-PATIENT
+schedule cataract surgery for John Smith,schedule_surgery,schedule/O cataract/B-SURGERY surgery/I-SURGERY for/O John/B-PATIENT Smith/I-PATIENT
+check lab results for John Smith,check_lab_results,check/O lab/O results/O for/O John/B-PATIENT Smith/I-PATIENT
+update patient contact info for Joe Doe,update_contact_info,update/O patient/O contact/O info/O for/O Joe/B-PATIENT Doe/I-PATIENT
+check lab results for Michael Clark,check_lab_results,check/O lab/O results/O for/O Michael/B-PATIENT Clark/I-PATIENT
+add new patient Maria Garcia 47 years old with heart disease,add_patient,add/O Maria/B-PATIENT Garcia/I-PATIENT/B-PATIENT 47/B-AGE years/O old/O with/O heart/B-DISEASE disease/I-DISEASE/B-DISEASE
+add new patient Emma Davis 48 years old with asthma,add_patient,add/O Emma/B-PATIENT Davis/I-PATIENT/B-PATIENT 48/B-AGE years/O old/O with/O asthma/B-DISEASE /I-DISEASE/B-DISEASE
+order blood test for Maria Garcia,order_blood_test,order/O blood/O test/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+remove medication insulin from Joe Doe's treatment plan,remove_medication,remove/O medication/O insulin/B-MEDICATION /I-MEDICATION from/O Joe/B-PATIENT Doe/I-PATIENT 's/O treatment/O plan/O
+update patient contact info for Oliver Harris,update_contact_info,update/O patient/O contact/O info/O for/O Oliver/B-PATIENT Harris/I-PATIENT
+update medical history for John Smith,update_medical_history,update/O medical/O history/O for/O John/B-PATIENT Smith/I-PATIENT
+assign medication amoxicillin twice a day for Joe Doe,assign_medication,assign/O medication/O amoxicillin/B-MEDICATION /I-MEDICATIONtwice/B-DOSAGE a day/I-DOSAGE for/O Joe/B-PATIENT Doe/I-PATIENT
+add allergy to dust for Oliver Harris,add_allergy,add/O allergy/O to/O dust/B-ALLERGY /I-ALLERGY for/O Oliver/B-PATIENT Harris/I-PATIENT
+discharge patient Michael Clark,discharge_patient,discharge/O patient/O Michael/B-PATIENT Clark/I-PATIENT
+assign medication gabapentin every 6 hours for Linda White,assign_medication,assign/O medication/O gabapentin/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE 6 hours/I-DOSAGE for/O Linda/B-PATIENT White/I-PATIENT
+schedule appointment for Linda White next week,schedule_appointment,schedule/O appointment/O for/O Linda/B-PATIENT White/I-PATIENT next/O week/O
+add allergy to soy for Maria Garcia,add_allergy,add/O allergy/O to/O soy/B-ALLERGY /I-ALLERGY for/O Maria/B-PATIENT Garcia/I-PATIENT
+schedule spinal surgery for Emma Davis,schedule_surgery,schedule/O spinal/B-SURGERY surgery/I-SURGERY for/O Emma/B-PATIENT Davis/I-PATIENT
+schedule appointment for Sophia Lewis next week,schedule_appointment,schedule/O appointment/O for/O Sophia/B-PATIENT Lewis/I-PATIENT next/O week/O
+order blood test for Emma Davis,order_blood_test,order/O blood/O test/O for/O Emma/B-PATIENT Davis/I-PATIENT
+add allergy to penicillin for Alice Johnson,add_allergy,add/O allergy/O to/O penicillin/B-ALLERGY /I-ALLERGY for/O Alice/B-PATIENT Johnson/I-PATIENT
+schedule appointment for Sophia Lewis next week,schedule_appointment,schedule/O appointment/O for/O Sophia/B-PATIENT Lewis/I-PATIENT next/O week/O
+assign medication metformin before meals for Alice Johnson,assign_medication,assign/O medication/O metformin/B-MEDICATION /I-MEDICATIONbefore/B-DOSAGE meals/I-DOSAGE for/O Alice/B-PATIENT Johnson/I-PATIENT
+check lab results for Emma Davis,check_lab_results,check/O lab/O results/O for/O Emma/B-PATIENT Davis/I-PATIENT
+remove medication statins from John Smith's treatment plan,remove_medication,remove/O medication/O statins/B-MEDICATION /I-MEDICATION from/O John/B-PATIENT Smith/I-PATIENT 's/O treatment/O plan/O
+consult with a neurologist for Maria Garcia,consult_specialist,consult/O with/O a/O neurologist/B-SPECIALTY /I-SPECIALTY for/O Maria/B-PATIENT Garcia/I-PATIENT
+schedule knee surgery for Joe Doe,schedule_surgery,schedule/O knee/B-SURGERY surgery/I-SURGERY for/O Joe/B-PATIENT Doe/I-PATIENT
+add allergy to penicillin for Linda White,add_allergy,add/O allergy/O to/O penicillin/B-ALLERGY /I-ALLERGY for/O Linda/B-PATIENT White/I-PATIENT
+add allergy to soy for Linda White,add_allergy,add/O allergy/O to/O soy/B-ALLERGY /I-ALLERGY for/O Linda/B-PATIENT White/I-PATIENT
+assign medication statins every 4 hours for John Smith,assign_medication,assign/O medication/O statins/B-MEDICATION /I-MEDICATIONevery/B-DOSAGE 4 hours/I-DOSAGE for/O John/B-PATIENT Smith/I-PATIENT
+assign medication insulin before meals for John Smith,assign_medication,assign/O medication/O insulin/B-MEDICATION /I-MEDICATIONbefore/B-DOSAGE meals/I-DOSAGE for/O John/B-PATIENT Smith/I-PATIENT
+order blood test for Sophia Lewis,order_blood_test,order/O blood/O test/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+add allergy to dust for Maria Garcia,add_allergy,add/O allergy/O to/O dust/B-ALLERGY /I-ALLERGY for/O Maria/B-PATIENT Garcia/I-PATIENT
+update medication dosage for lorazepam to after meals for Linda White,update_medication,update/O medication/O dosage/O for/O lorazepam/B-MEDICATION /I-MEDICATION to/O after/B-DOSAGE meals/I-DOSAGE for/O Linda/B-PATIENT White/I-PATIENT
+update medical history for Oliver Harris,update_medical_history,update/O medical/O history/O for/O Oliver/B-PATIENT Harris/I-PATIENT
+update medical history for John Smith,update_medical_history,update/O medical/O history/O for/O John/B-PATIENT Smith/I-PATIENT
+check lab results for Emma Davis,check_lab_results,check/O lab/O results/O for/O Emma/B-PATIENT Davis/I-PATIENT
+consult with a orthopedic surgeon for James Brown,consult_specialist,consult/O with/O a/O orthopedic/B-SPECIALTY surgeon/I-SPECIALTY for/O James/B-PATIENT Brown/I-PATIENT
+consult with a neurologist for Emma Davis,consult_specialist,consult/O with/O a/O neurologist/B-SPECIALTY /I-SPECIALTY for/O Emma/B-PATIENT Davis/I-PATIENT
+order blood test for Linda White,order_blood_test,order/O blood/O test/O for/O Linda/B-PATIENT White/I-PATIENT
+discharge patient Joe Doe,discharge_patient,discharge/O patient/O Joe/B-PATIENT Doe/I-PATIENT
+schedule spinal surgery for Oliver Harris,schedule_surgery,schedule/O spinal/B-SURGERY surgery/I-SURGERY for/O Oliver/B-PATIENT Harris/I-PATIENT
+schedule appointment for John Smith next week,schedule_appointment,schedule/O appointment/O for/O John/B-PATIENT Smith/I-PATIENT next/O week/O
+get patient information for Sophia Lewis,get_patient_info,get/O patient/O information/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+schedule appointment for James Brown next week,schedule_appointment,schedule/O appointment/O for/O James/B-PATIENT Brown/I-PATIENT next/O week/O
+get patient information for Sophia Lewis,get_patient_info,get/O patient/O information/O for/O Sophia/B-PATIENT Lewis/I-PATIENT
+add new patient Oliver Harris 58 years old with diabetes,add_patient,add/O Oliver/B-PATIENT Harris/I-PATIENT/B-PATIENT 58/B-AGE years/O old/O with/O diabetes/B-DISEASE /I-DISEASE/B-DISEASE
+schedule appointment for Joe Doe next week,schedule_appointment,schedule/O appointment/O for/O Joe/B-PATIENT Doe/I-PATIENT next/O week/O
+check lab results for Alice Johnson,check_lab_results,check/O lab/O results/O for/O Alice/B-PATIENT Johnson/I-PATIENT
+schedule appointment for Linda White next week,schedule_appointment,schedule/O appointment/O for/O Linda/B-PATIENT White/I-PATIENT next/O week/O
+consult with a gastroenterologist for Maria Garcia,consult_specialist,consult/O with/O a/O gastroenterologist/B-SPECIALTY /I-SPECIALTY for/O Maria/B-PATIENT Garcia/I-PATIENT
+add new patient Oliver Harris 74 years old with hypertension,add_patient,add/O Oliver/B-PATIENT Harris/I-PATIENT/B-PATIENT 74/B-AGE years/O old/O with/O hypertension/B-DISEASE /I-DISEASE/B-DISEASE
+remove medication insulin from Alice Johnson's treatment plan,remove_medication,remove/O medication/O insulin/B-MEDICATION /I-MEDICATION from/O Alice/B-PATIENT Johnson/I-PATIENT 's/O treatment/O plan/O
+get patient information for Linda White,get_patient_info,get/O patient/O information/O for/O Linda/B-PATIENT White/I-PATIENT
+update medical history for Linda White,update_medical_history,update/O medical/O history/O for/O Linda/B-PATIENT White/I-PATIENT
+get patient information for Emma Davis,get_patient_info,get/O patient/O information/O for/O Emma/B-PATIENT Davis/I-PATIENT
+check lab results for James Brown,check_lab_results,check/O lab/O results/O for/O James/B-PATIENT Brown/I-PATIENT
+add new patient Michael Clark 52 years old with heart disease,add_patient,add/O Michael/B-PATIENT Clark/I-PATIENT/B-PATIENT 52/B-AGE years/O old/O with/O heart/B-DISEASE disease/I-DISEASE/B-DISEASE
+consult with a neurologist for Oliver Harris,consult_specialist,consult/O with/O a/O neurologist/B-SPECIALTY /I-SPECIALTY for/O Oliver/B-PATIENT Harris/I-PATIENT
+schedule appointment for Michael Clark next week,schedule_appointment,schedule/O appointment/O for/O Michael/B-PATIENT Clark/I-PATIENT next/O week/O
+update medical history for James Brown,update_medical_history,update/O medical/O history/O for/O James/B-PATIENT Brown/I-PATIENT
+assign medication lorazepam after meals for Maria Garcia,assign_medication,assign/O medication/O lorazepam/B-MEDICATION /I-MEDICATIONafter/B-DOSAGE meals/I-DOSAGE for/O Maria/B-PATIENT Garcia/I-PATIENT
+remove medication lorazepam from James Brown's treatment plan,remove_medication,remove/O medication/O lorazepam/B-MEDICATION /I-MEDICATION from/O James/B-PATIENT Brown/I-PATIENT 's/O treatment/O plan/O
+consult with a gastroenterologist for Emma Davis,consult_specialist,consult/O with/O a/O gastroenterologist/B-SPECIALTY /I-SPECIALTY for/O Emma/B-PATIENT Davis/I-PATIENT
+remove medication metformin from Sophia Lewis's treatment plan,remove_medication,remove/O medication/O metformin/B-MEDICATION /I-MEDICATION from/O Sophia/B-PATIENT Lewis/I-PATIENT 's/O treatment/O plan/O
+add new patient Oliver Harris 79 years old with chronic pain,add_patient,add/O Oliver/B-PATIENT Harris/I-PATIENT/B-PATIENT 79/B-AGE years/O old/O with/O chronic/B-DISEASE pain/I-DISEASE/B-DISEASE
+add allergy to soy for Michael Clark,add_allergy,add/O allergy/O to/O soy/B-ALLERGY /I-ALLERGY for/O Michael/B-PATIENT Clark/I-PATIENT
+remove medication amoxicillin from James Brown's treatment plan,remove_medication,remove/O medication/O amoxicillin/B-MEDICATION /I-MEDICATION from/O James/B-PATIENT Brown/I-PATIENT 's/O treatment/O plan/O
+discharge patient Emma Davis,discharge_patient,discharge/O patient/O Emma/B-PATIENT Davis/I-PATIENT
+order x-ray for James Brown,order_xray,order/O x-ray/O for/O James/B-PATIENT Brown/I-PATIENT
+remove medication paracetamol from Emma Davis's treatment plan,remove_medication,remove/O medication/O paracetamol/B-MEDICATION /I-MEDICATION from/O Emma/B-PATIENT Davis/I-PATIENT 's/O treatment/O plan/O
+consult with a orthopedic surgeon for Maria Garcia,consult_specialist,consult/O with/O a/O orthopedic/B-SPECIALTY surgeon/I-SPECIALTY for/O Maria/B-PATIENT Garcia/I-PATIENT
+order x-ray for Maria Garcia,order_xray,order/O x-ray/O for/O Maria/B-PATIENT Garcia/I-PATIENT
+discharge patient Alice Johnson,discharge_patient,discharge/O patient/O Alice/B-PATIENT Johnson/I-PATIENT
+schedule heart bypass for Linda White,schedule_surgery,schedule/O heart/B-SURGERY bypass/I-SURGERY for/O Linda/B-PATIENT White/I-PATIENT
+update medical history for Joe Doe,update_medical_history,update/O medical/O history/O for/O Joe/B-PATIENT Doe/I-PATIENT
