@@ -1,0 +1,82 @@
+openapi: 3.0.0
+info:
+  title: Medical Task Manager API
+  description: API for Named Entity Recognition (NER) and Intent Classification
+  version: "1.0.0"
+paths:
+  /extract_entities/:
+    post:
+      summary: Extract entities from the input sentence
+      description: |
+        This endpoint takes a sentence and returns the identified entities such as medical terms, patient names, etc. 
+        The entities are extracted using a fine-tuned NER model.
+      operationId: extract_entities
+      tags:
+        - NER
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NERRequest'
+        required: true
+      responses:
+        200:
+          description: A list of extracted entities from the input sentence.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NERResponse'
+        400:
+          description: Invalid input sentence or processing error.
+  /classify_intent/:
+    post:
+      summary: Classify the intent of the input sentence
+      description: |
+        This endpoint classifies the intent behind the input sentence, such as medical task types (e.g., updating history, requesting information, etc.)
+        The intent is classified using a fine-tuned intent classification model.
+      operationId: classify_intent
+      tags:
+        - Intent Classification
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IntentRequest'
+        required: true
+      responses:
+        200:
+          description: The predicted intent of the input sentence.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IntentResponse'
+        400:
+          description: Invalid input sentence or processing error.
+components:
+  schemas:
+    NERRequest:
+      type: object
+      properties:
+        sentence:
+          type: string
+          description: The sentence for NER processing
+    NERResponse:
+      type: object
+      properties:
+        entities:
+          type: array
+          items:
+            type: string
+          description: A list of entities extracted from the sentence
+    IntentRequest:
+      type: object
+      properties:
+        sentence:
+          type: string
+          description: The sentence for intent classification
+    IntentResponse:
+      type: object
+      properties:
+        intent:
+          type: string
+          description: The predicted intent of the input sentence
