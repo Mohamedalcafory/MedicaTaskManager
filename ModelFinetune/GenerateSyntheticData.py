@@ -6,25 +6,72 @@ def load_data_from_csv(file_path):
     return pd.read_csv(file_path).iloc[:, 0].tolist()
 
 def generate_patient_ner(patient):
-    patient_ner = patient.split()[0] + "/B-PATIENT " + " ".join(patient.split()[1:]) + "/I-PATIENT"
+    words = patient.split()
+    if len(words) == 1:
+        patient_ner = words[0] + "/B-PATIENT"
+    elif len(words) == 2:
+        patient_ner = words[0] + "/B-PATIENT " + words[1] + "/I-PATIENT"
+    else:
+        patient_ner = words[0] + "/B-PATIENT " + words[1] + "/I-PATIENT " + " ".join(words[2:]) + "/O-PATIENT"
     return patient_ner
+
 def generate_disease_ner(disease):
-    disease_ner = disease.split()[0] + "/B-DISEASE " + " ".join(disease.split()[1:]) + "/I-DISEASE"
+    words = disease.split()
+    if len(words) == 1:
+        disease_ner = words[0] + "/B-DISEASE"
+    elif len(words) == 2:
+        disease_ner = words[0] + "/B-DISEASE " + words[1] + "/I-DISEASE"
+    else:
+        disease_ner = words[0] + "/B-DISEASE " + words[1] + "/I-DISEASE " + " ".join(words[2:]) + "/O-DISEASE"
     return disease_ner
+
 def generate_allergy_ner(allergy):
-    allergy_ner = allergy.split()[0] + "/B-ALLERGY " + " ".join(allergy.split()[1:]) + "/I-ALLERGY"
+    words = allergy.split()
+    if len(words) == 1:
+        allergy_ner = words[0] + "/B-ALLERGY"
+    elif len(words) == 2:
+        allergy_ner = words[0] + "/B-ALLERGY " + words[1] + "/I-ALLERGY"
+    else:
+        allergy_ner = words[0] + "/B-ALLERGY " + words[1] + "/I-ALLERGY " + " ".join(words[2:]) + "/O-ALLERGY"
     return allergy_ner
 def generate_medication_ner(medication):
-    medication_ner = medication.split()[0] + "/B-MEDICATION " + " ".join(medication.split()[1:]) + "/I-MEDICATION"
+    words = medication.split()
+    if len(words) == 1:
+        medication_ner = words[0] + "/B-MEDICATION"
+    elif len(words) == 2:
+        medication_ner = words[0] + "/B-MEDICATION " + words[1] + "/I-MEDICATION"
+    else:
+        medication_ner = words[0] + "/B-MEDICATION " + words[1] + "/I-MEDICATION " + " ".join(words[2:]) + "/O-MEDICATION"
     return medication_ner
+
 def generate_specialty_ner(specialty):
-    specialty_ner = specialty.split()[0] + "/B-SPECIALTY " + " ".join(specialty.split()[1:]) + "/I-SPECIALTY"
+    words = specialty.split()
+    if len(words) == 1:
+        specialty_ner = words[0] + "/B-SPECIALTY"
+    elif len(words) == 2:
+        specialty_ner = words[0] + "/B-SPECIALTY " + words[1] + "/I-SPECIALTY"
+    else:
+        specialty_ner = words[0] + "/B-SPECIALTY " + words[1] + "/I-SPECIALTY " + " ".join(words[2:]) + "/O-SPECIALTY"
     return specialty_ner
+
 def generate_surgery_ner(surgery):
-    surgery_ner = surgery.split()[0] + "/B-SURGERY " + " ".join(surgery.split()[1:]) + "/I-SURGERY"
+    words = surgery.split()
+    if len(words) == 1:
+        surgery_ner = words[0] + "/B-SURGERY"
+    elif len(words) == 2:
+        surgery_ner = words[0] + "/B-SURGERY " + words[1] + "/I-SURGERY"
+    else:
+        surgery_ner = words[0] + "/B-SURGERY " + words[1] + "/I-SURGERY " + " ".join(words[2:]) + "/O-SURGERY"
     return surgery_ner
+
 def generate_dosage_ner(dosage):
-    dosage_ner = dosage.split()[0] + "/B-DOSAGE " + " ".join(dosage.split()[1:]) + "/I-DOSAGE"
+    words = dosage.split()
+    if len(words) == 1:
+        dosage_ner = words[0] + "/B-DOSAGE"
+    elif len(words) == 2:
+        dosage_ner = words[0] + "/B-DOSAGE " + words[1] + "/I-DOSAGE"
+    else:
+        dosage_ner = words[0] + "/B-DOSAGE " + words[1] + "/I-DOSAGE " + " ".join(words[2:]) + "/O-DOSAGE"
     return dosage_ner
 
 # Function to generate a sentence with a specific intent
@@ -42,7 +89,7 @@ def generate_sentence(intent):
         patient = random.choice(patients)
         medication = random.choice(medications)
         dosage = random.choice(dosages)
-        return f"assign medication {medication} {dosage} for {patient}", f"assign/O medication/O {generate_medication_ner(medication)}{generate_dosage_ner(dosage)} for/O {generate_patient_ner(patient)}" 
+        return f"assign medication {medication} {dosage} for {patient}", f"assign/O medication/O {generate_medication_ner(medication)} {generate_dosage_ner(dosage)} for/O {generate_patient_ner(patient)}" 
 
     elif intent == "update_medication":
         patient = random.choice(patients)

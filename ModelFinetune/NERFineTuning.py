@@ -15,7 +15,6 @@ def parse_ner_column(ner_column):
         tokens.append(word)
         tags.append(tag)
     return tokens, tags
-print(parse_ner_column("update/O medical/O history/O for/O Sophia Lewis/B-PATIENT"))
 # Process the dataset
 def process_dataset(df):
     tokens_list, tags_list = [], []
@@ -31,8 +30,8 @@ def process_dataset(df):
     }
 
 # Processed dataset
-# processed_data = process_dataset(df)
-
+processed_data = process_dataset(df)
+print(processed_data[0])
 # # Extract unique NER tags and map to IDs
 # unique_tags = sorted(set(tag for tags in processed_data["ner_tags"] for tag in tags))
 # tag2id = {tag: idx for idx, tag in enumerate(unique_tags)}
