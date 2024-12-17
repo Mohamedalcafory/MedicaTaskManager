@@ -43,13 +43,3 @@ processed_data = process_dataset(df)
 processed_data_df = pd.DataFrame(processed_data)
 processed_data_df.to_csv("processed_ner_dataset.csv", index=False)
 
-# Extract unique NER tags and map to IDs
-unique_tags = sorted(set(tag for tags in processed_data["ner_tags"] for tag in tags))
-tag2id = {tag: idx for idx, tag in enumerate(unique_tags)}
-id2tag = {idx: tag for tag, idx in tag2id.items()}
-
-# Map NER tags to IDs
-def tags_to_ids(tags_list, tag2id):
-    return [[tag2id[tag] for tag in tags] for tags in tags_list]
-
-processed_data["ner_tags_ids"] = tags_to_ids(processed_data["ner_tags"], tag2id)
