@@ -1,0 +1,301 @@
+tokens,ner_tags,intent
+"['remove', 'medication', 'gabapentin', 'from', 'Maria', 'Garcia', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['assign', 'medication', 'ibuprofen', 'every', 'evening', 'for', 'Oliver', 'Harris']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['order', 'x-ray', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['update', 'patient', 'contact', 'info', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['add', 'allergy', 'to', 'lactose', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['add', 'allergy', 'to', 'tree', 'nuts', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'B-ALLERGY', 'I-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['update', 'medication', 'dosage', 'for', 'statins', 'to', 'every', '8', 'hours', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['check', 'lab', 'results', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['consult', 'with', 'a', 'orthopedic', 'surgeon', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-SPECIALTY', 'I-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['get', 'patient', 'information', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['remove', 'medication', 'gabapentin', 'from', 'Linda', 'White', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['get', 'patient', 'information', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['add', 'allergy', 'to', 'peanuts', 'for', 'James', 'Brown']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['consult', 'with', 'a', 'orthopedic', 'surgeon', 'for', 'John', 'Smith']","['O', 'O', 'O', 'B-SPECIALTY', 'I-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['order', 'x-ray', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['add', 'allergy', 'to', 'peanuts', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['add', 'Oliver', 'Harris/I-PATIENT', '31', 'years', 'old', 'with', 'depression/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['add', 'Joe', 'Doe/I-PATIENT', '27', 'years', 'old', 'with', 'depression/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['check', 'lab', 'results', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['consult', 'with', 'a', 'gastroenterologist', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['schedule', 'appendectomy', 'for', 'Maria', 'Garcia']","['O', 'B-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['get', 'patient', 'information', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['update', 'patient', 'contact', 'info', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['assign', 'medication', 'paracetamol', 'every', '6', 'hours', 'for', 'Sophia', 'Lewis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['discharge', 'patient', 'James', 'Brown']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['assign', 'medication', 'lorazepam', 'as', 'needed', 'for', 'Sophia', 'Lewis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['check', 'lab', 'results', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['check', 'lab', 'results', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['check', 'lab', 'results', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['assign', 'medication', 'aspirin', 'twice', 'a', 'day', 'for', 'Emma', 'Davis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['check', 'lab', 'results', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['add', 'allergy', 'to', 'tree', 'nuts', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'B-ALLERGY', 'I-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['assign', 'medication', 'metformin', 'every', 'evening', 'for', 'Sophia', 'Lewis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['schedule', 'knee', 'surgery', 'for', 'Sophia', 'Lewis']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['remove', 'medication', 'gabapentin', 'from', 'Michael', 'Clark', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['check', 'lab', 'results', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['check', 'lab', 'results', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['get', 'patient', 'information', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['schedule', 'appointment', 'for', 'Maria', 'Garcia', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['check', 'lab', 'results', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['remove', 'medication', 'ibuprofen', 'from', 'John', 'Smith', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['assign', 'medication', 'ibuprofen', 'every', '8', 'hours', 'for', 'Michael', 'Clark']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['check', 'lab', 'results', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['order', 'x-ray', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['discharge', 'patient', 'Maria', 'Garcia']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['schedule', 'heart', 'bypass', 'for', 'Michael', 'Clark']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['add', 'John', 'Smith/I-PATIENT', '39', 'years', 'old', 'with', 'heart', 'disease/I-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE', 'B-DISEASE']",add_patient
+"['get', 'patient', 'information', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['check', 'lab', 'results', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['consult', 'with', 'a', 'orthopedic', 'surgeon', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-SPECIALTY', 'I-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['remove', 'medication', 'ibuprofen', 'from', 'John', 'Smith', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['get', 'patient', 'information', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['update', 'medical', 'history', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['update', 'patient', 'contact', 'info', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['schedule', 'appointment', 'for', 'Alice', 'Johnson', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['check', 'lab', 'results', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['remove', 'medication', 'statins', 'from', 'Linda', 'White', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['add', 'Alice', 'Johnson/I-PATIENT', '51', 'years', 'old', 'with', 'depression/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['consult', 'with', 'a', 'dermatologist', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['schedule', 'spinal', 'surgery', 'for', 'John', 'Smith']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['update', 'medical', 'history', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['discharge', 'patient', 'Joe', 'Doe']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['add', 'Sophia', 'Lewis/I-PATIENT', '54', 'years', 'old', 'with', 'anemia/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['assign', 'medication', 'atenolol', 'every', 'morning', 'for', 'Sophia', 'Lewis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['add', 'Michael', 'Clark/I-PATIENT', '51', 'years', 'old', 'with', 'covid-19/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['update', 'medical', 'history', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['add', 'allergy', 'to', 'latex', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['update', 'patient', 'contact', 'info', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['order', 'x-ray', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['check', 'lab', 'results', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['assign', 'medication', 'amoxicillin', 'every', '4', 'hours', 'for', 'Maria', 'Garcia']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['consult', 'with', 'a', 'cardiologist', 'for', 'James', 'Brown']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['remove', 'medication', 'statins', 'from', 'Oliver', 'Harris', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['check', 'lab', 'results', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['remove', 'medication', 'aspirin', 'from', 'James', 'Brown', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['schedule', 'spinal', 'surgery', 'for', 'John', 'Smith']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['check', 'lab', 'results', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['update', 'patient', 'contact', 'info', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['remove', 'medication', 'metformin', 'from', 'Maria', 'Garcia', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['update', 'medication', 'dosage', 'for', 'amoxicillin', 'to', 'every', 'morning', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['order', 'blood', 'test', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['schedule', 'appointment', 'for', 'James', 'Brown', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['schedule', 'appendectomy', 'for', 'Maria', 'Garcia']","['O', 'B-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['remove', 'medication', 'insulin', 'from', 'Sophia', 'Lewis', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['update', 'patient', 'contact', 'info', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['update', 'medication', 'dosage', 'for', 'paracetamol', 'to', 'every', '8', 'hours', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['get', 'patient', 'information', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['remove', 'medication', 'atenolol', 'from', 'Emma', 'Davis', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['add', 'allergy', 'to', 'peanuts', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['add', 'allergy', 'to', 'dust', 'for', 'John', 'Smith']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['assign', 'medication', 'paracetamol', 'every', '4', 'hours', 'for', 'Sophia', 'Lewis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['check', 'lab', 'results', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['consult', 'with', 'a', 'gastroenterologist', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['get', 'patient', 'information', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['schedule', 'cataract', 'surgery', 'for', 'Emma', 'Davis']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['update', 'medical', 'history', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['discharge', 'patient', 'Oliver', 'Harris']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['consult', 'with', 'a', 'orthopedic', 'surgeon', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'B-SPECIALTY', 'I-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['update', 'medical', 'history', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['schedule', 'spinal', 'surgery', 'for', 'James', 'Brown']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['update', 'patient', 'contact', 'info', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['assign', 'medication', 'aspirin', 'as', 'needed', 'for', 'John', 'Smith']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['remove', 'medication', 'atenolol', 'from', 'Linda', 'White', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['update', 'medication', 'dosage', 'for', 'paracetamol', 'to', 'after', 'meals', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['order', 'x-ray', 'for', 'James', 'Brown']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['update', 'medical', 'history', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['update', 'medication', 'dosage', 'for', 'ibuprofen', 'to', 'twice', 'a', 'day', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['get', 'patient', 'information', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['update', 'medication', 'dosage', 'for', 'gabapentin', 'to', 'before', 'meals', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['update', 'medical', 'history', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['order', 'blood', 'test', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['get', 'patient', 'information', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['assign', 'medication', 'aspirin', 'twice', 'a', 'day', 'for', 'John', 'Smith']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['update', 'patient', 'contact', 'info', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['add', 'Oliver', 'Harris/I-PATIENT', '52', 'years', 'old', 'with', 'flu/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['schedule', 'appointment', 'for', 'John', 'Smith', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['remove', 'medication', 'lorazepam', 'from', 'James', 'Brown', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['schedule', 'appointment', 'for', 'Oliver', 'Harris', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['remove', 'medication', 'aspirin', 'from', 'Sophia', 'Lewis', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['add', 'James', 'Brown/I-PATIENT', '79', 'years', 'old', 'with', 'chronic', 'pain/I-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE', 'B-DISEASE']",add_patient
+"['get', 'patient', 'information', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['discharge', 'patient', 'Joe', 'Doe']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['discharge', 'patient', 'Emma', 'Davis']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['schedule', 'appointment', 'for', 'Sophia', 'Lewis', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['add', 'Maria', 'Garcia/I-PATIENT', '61', 'years', 'old', 'with', 'heart', 'disease/I-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE', 'B-DISEASE']",add_patient
+"['schedule', 'appointment', 'for', 'Joe', 'Doe', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['consult', 'with', 'a', 'neurologist', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['update', 'patient', 'contact', 'info', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['add', 'allergy', 'to', 'penicillin', 'for', 'John', 'Smith']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['assign', 'medication', 'gabapentin', 'after', 'meals', 'for', 'Michael', 'Clark']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['discharge', 'patient', 'John', 'Smith']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['update', 'medication', 'dosage', 'for', 'metformin', 'to', 'before', 'meals', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['order', 'blood', 'test', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['check', 'lab', 'results', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['add', 'allergy', 'to', 'peanuts', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['order', 'x-ray', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['schedule', 'appointment', 'for', 'Emma', 'Davis', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['discharge', 'patient', 'Oliver', 'Harris']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['order', 'x-ray', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['discharge', 'patient', 'Linda', 'White']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['remove', 'medication', 'amoxicillin', 'from', 'Maria', 'Garcia', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['update', 'medication', 'dosage', 'for', 'amoxicillin', 'to', 'once', 'a', 'day', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['update', 'patient', 'contact', 'info', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['update', 'patient', 'contact', 'info', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['update', 'medication', 'dosage', 'for', 'insulin', 'to', 'every', 'morning', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['check', 'lab', 'results', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['schedule', 'appointment', 'for', 'Linda', 'White', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['add', 'Maria', 'Garcia/I-PATIENT', '50', 'years', 'old', 'with', 'covid-19/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['add', 'allergy', 'to', 'peanuts', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['update', 'medical', 'history', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['schedule', 'heart', 'bypass', 'for', 'Oliver', 'Harris']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['check', 'lab', 'results', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['assign', 'medication', 'amoxicillin', 'every', '6', 'hours', 'for', 'Oliver', 'Harris']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['get', 'patient', 'information', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['discharge', 'patient', 'James', 'Brown']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['order', 'x-ray', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['consult', 'with', 'a', 'dermatologist', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['schedule', 'appendectomy', 'for', 'John', 'Smith']","['O', 'B-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['update', 'medication', 'dosage', 'for', 'statins', 'to', 'every', 'evening', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['assign', 'medication', 'statins', 'as', 'needed', 'for', 'Maria', 'Garcia']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['consult', 'with', 'a', 'neurologist', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['schedule', 'appointment', 'for', 'Maria', 'Garcia', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['schedule', 'appointment', 'for', 'Sophia', 'Lewis', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['update', 'medication', 'dosage', 'for', 'statins', 'to', 'every', '4', 'hours', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['schedule', 'appointment', 'for', 'Maria', 'Garcia', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['add', 'Joe', 'Doe/I-PATIENT', '61', 'years', 'old', 'with', 'chronic', 'pain/I-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE', 'B-DISEASE']",add_patient
+"['update', 'medical', 'history', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['update', 'medical', 'history', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['schedule', 'cataract', 'surgery', 'for', 'Emma', 'Davis']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['remove', 'medication', 'metformin', 'from', 'Joe', 'Doe', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['schedule', 'spinal', 'surgery', 'for', 'Oliver', 'Harris']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['check', 'lab', 'results', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['discharge', 'patient', 'Linda', 'White']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['consult', 'with', 'a', 'gastroenterologist', 'for', 'James', 'Brown']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['remove', 'medication', 'insulin', 'from', 'Emma', 'Davis', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['get', 'patient', 'information', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['discharge', 'patient', 'Michael', 'Clark']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['discharge', 'patient', 'Linda', 'White']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['add', 'John', 'Smith/I-PATIENT', '54', 'years', 'old', 'with', 'diabetes/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['update', 'medical', 'history', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['update', 'patient', 'contact', 'info', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['update', 'medication', 'dosage', 'for', 'paracetamol', 'to', 'every', 'morning', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['order', 'x-ray', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['get', 'patient', 'information', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['schedule', 'appointment', 'for', 'James', 'Brown', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['add', 'allergy', 'to', 'tree', 'nuts', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-ALLERGY', 'I-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['schedule', 'appointment', 'for', 'John', 'Smith', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['order', 'blood', 'test', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['schedule', 'cataract', 'surgery', 'for', 'Joe', 'Doe']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['update', 'medication', 'dosage', 'for', 'ibuprofen', 'to', 'twice', 'a', 'day', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['add', 'John', 'Smith/I-PATIENT', '42', 'years', 'old', 'with', 'covid-19/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['remove', 'medication', 'paracetamol', 'from', 'Michael', 'Clark', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['add', 'James', 'Brown/I-PATIENT', '74', 'years', 'old', 'with', 'diabetes/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['order', 'blood', 'test', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['assign', 'medication', 'paracetamol', 'every', '6', 'hours', 'for', 'Emma', 'Davis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['get', 'patient', 'information', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['assign', 'medication', 'metformin', 'after', 'meals', 'for', 'John', 'Smith']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['add', 'allergy', 'to', 'pollen', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['add', 'allergy', 'to', 'peanuts', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['discharge', 'patient', 'John', 'Smith']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['schedule', 'spinal', 'surgery', 'for', 'John', 'Smith']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['update', 'patient', 'contact', 'info', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['add', 'Oliver', 'Harris/I-PATIENT', '49', 'years', 'old', 'with', 'diabetes/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['update', 'patient', 'contact', 'info', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['update', 'patient', 'contact', 'info', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['discharge', 'patient', 'Alice', 'Johnson']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['update', 'patient', 'contact', 'info', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['schedule', 'appointment', 'for', 'Linda', 'White', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['order', 'blood', 'test', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['discharge', 'patient', 'Michael', 'Clark']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['update', 'medical', 'history', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['get', 'patient', 'information', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['update', 'medical', 'history', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['add', 'allergy', 'to', 'shellfish', 'for', 'James', 'Brown']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['get', 'patient', 'information', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['check', 'lab', 'results', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['add', 'allergy', 'to', 'latex', 'for', 'James', 'Brown']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['order', 'blood', 'test', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['order', 'blood', 'test', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['update', 'medication', 'dosage', 'for', 'atenolol', 'to', 'every', '8', 'hours', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['update', 'medication', 'dosage', 'for', 'metformin', 'to', 'every', '6', 'hours', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['discharge', 'patient', 'Joe', 'Doe']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['check', 'lab', 'results', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['add', 'allergy', 'to', 'penicillin', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['assign', 'medication', 'ibuprofen', 'every', '4', 'hours', 'for', 'John', 'Smith']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['consult', 'with', 'a', 'gastroenterologist', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['update', 'medication', 'dosage', 'for', 'lorazepam', 'to', 'after', 'meals', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['update', 'medication', 'dosage', 'for', 'amoxicillin', 'to', 'before', 'meals', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['order', 'x-ray', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['schedule', 'knee', 'surgery', 'for', 'Joe', 'Doe']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['order', 'x-ray', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['update', 'patient', 'contact', 'info', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['get', 'patient', 'information', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['add', 'Oliver', 'Harris/I-PATIENT', '71', 'years', 'old', 'with', 'hypertension/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['order', 'blood', 'test', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['schedule', 'appointment', 'for', 'John', 'Smith', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['schedule', 'knee', 'surgery', 'for', 'Joe', 'Doe']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['get', 'patient', 'information', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['schedule', 'appointment', 'for', 'Oliver', 'Harris', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['update', 'medication', 'dosage', 'for', 'atenolol', 'to', 'every', '6', 'hours', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['order', 'blood', 'test', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['schedule', 'appointment', 'for', 'Joe', 'Doe', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['consult', 'with', 'a', 'neurologist', 'for', 'Emma', 'Davis']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['order', 'blood', 'test', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['check', 'lab', 'results', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['add', 'Joe', 'Doe/I-PATIENT', '46', 'years', 'old', 'with', 'covid-19/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['discharge', 'patient', 'Alice', 'Johnson']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['check', 'lab', 'results', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['discharge', 'patient', 'Sophia', 'Lewis']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['add', 'Oliver', 'Harris/I-PATIENT', '31', 'years', 'old', 'with', 'flu/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['order', 'x-ray', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['update', 'patient', 'contact', 'info', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['schedule', 'appointment', 'for', 'Michael', 'Clark', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['assign', 'medication', 'insulin', 'every', '4', 'hours', 'for', 'Michael', 'Clark']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['assign', 'medication', 'amoxicillin', 'after', 'meals', 'for', 'James', 'Brown']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['add', 'James', 'Brown/I-PATIENT', '66', 'years', 'old', 'with', 'hypertension/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['order', 'blood', 'test', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['check', 'lab', 'results', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['order', 'blood', 'test', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['assign', 'medication', 'atenolol', 'every', 'evening', 'for', 'Linda', 'White']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['update', 'medication', 'dosage', 'for', 'gabapentin', 'to', 'every', 'evening', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['add', 'allergy', 'to', 'gluten', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['order', 'x-ray', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['order', 'x-ray', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['order', 'blood', 'test', 'for', 'Oliver', 'Harris']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_blood_test
+"['get', 'patient', 'information', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",get_patient_info
+"['add', 'allergy', 'to', 'soy', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['check', 'lab', 'results', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['add', 'Michael', 'Clark/I-PATIENT', '67', 'years', 'old', 'with', 'arthritis/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['add', 'John', 'Smith/I-PATIENT', '45', 'years', 'old', 'with', 'asthma/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['schedule', 'appointment', 'for', 'Oliver', 'Harris', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['remove', 'medication', 'atenolol', 'from', 'Michael', 'Clark', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['consult', 'with', 'a', 'cardiologist', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['update', 'patient', 'contact', 'info', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['schedule', 'appointment', 'for', 'Oliver', 'Harris', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['update', 'medical', 'history', 'for', 'John', 'Smith']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['schedule', 'appointment', 'for', 'James', 'Brown', 'next', 'week']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O']",schedule_appointment
+"['order', 'x-ray', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",order_xray
+"['update', 'medication', 'dosage', 'for', 'ibuprofen', 'to', 'after', 'meals', 'for', 'Sophia', 'Lewis']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['update', 'medication', 'dosage', 'for', 'aspirin', 'to', 'every', '4', 'hours', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['discharge', 'patient', 'Alice', 'Johnson']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['add', 'allergy', 'to', 'tree', 'nuts', 'for', 'John', 'Smith']","['O', 'O', 'O', 'B-ALLERGY', 'I-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['assign', 'medication', 'paracetamol', 'as', 'needed', 'for', 'Linda', 'White']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['check', 'lab', 'results', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['update', 'medication', 'dosage', 'for', 'insulin', 'to', 'after', 'meals', 'for', 'Linda', 'White']","['O', 'O', 'O', 'O', 'B-MEDICATION', 'O', 'B-DOSAGE', 'I-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",update_medication
+"['consult', 'with', 'a', 'neurologist', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['update', 'patient', 'contact', 'info', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
+"['update', 'medical', 'history', 'for', 'Alice', 'Johnson']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_medical_history
+"['consult', 'with', 'a', 'gastroenterologist', 'for', 'Linda', 'White']","['O', 'O', 'O', 'B-SPECIALTY', 'O', 'B-PATIENT', 'I-PATIENT']",consult_specialist
+"['add', 'Joe', 'Doe/I-PATIENT', '49', 'years', 'old', 'with', 'flu/B-DISEASE']","['O', 'B-PATIENT', 'B-PATIENT', 'B-AGE', 'O', 'O', 'O', 'B-DISEASE']",add_patient
+"['assign', 'medication', 'lorazepam', 'every', '8', 'hours', 'for', 'Alice', 'Johnson']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['discharge', 'patient', 'Linda', 'White']","['O', 'O', 'B-PATIENT', 'I-PATIENT']",discharge_patient
+"['remove', 'medication', 'paracetamol', 'from', 'John', 'Smith', ""'s"", 'treatment', 'plan']","['O', 'O', 'B-MEDICATION', 'O', 'B-PATIENT', 'I-PATIENT', 'O', 'O', 'O']",remove_medication
+"['add', 'allergy', 'to', 'pollen', 'for', 'Maria', 'Garcia']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['check', 'lab', 'results', 'for', 'Michael', 'Clark']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['assign', 'medication', 'insulin', 'once', 'a', 'day', 'for', 'Emma', 'Davis']","['O', 'O', 'B-MEDICATION', 'B-DOSAGE', 'I-DOSAGE', 'O-DOSAGE', 'O', 'B-PATIENT', 'I-PATIENT']",assign_medication
+"['add', 'allergy', 'to', 'latex', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'B-ALLERGY', 'O', 'B-PATIENT', 'I-PATIENT']",add_allergy
+"['check', 'lab', 'results', 'for', 'Joe', 'Doe']","['O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",check_lab_results
+"['schedule', 'knee', 'surgery', 'for', 'Maria', 'Garcia']","['O', 'B-SURGERY', 'I-SURGERY', 'O', 'B-PATIENT', 'I-PATIENT']",schedule_surgery
+"['update', 'patient', 'contact', 'info', 'for', 'James', 'Brown']","['O', 'O', 'O', 'O', 'O', 'B-PATIENT', 'I-PATIENT']",update_contact_info
